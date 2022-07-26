@@ -466,6 +466,46 @@ body {
 .webstudio {
   fill: var(--background-color);
 }
+.contact-form {
+  margin-left: 78px;
+  margin-top: 12px;
+  font-size: 0px;
+}
+.contact-form-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--background-color);
+  margin-bottom: 20px;
+}
+.contact-form-email {
+  padding: 15px 16px;
+  width: 350px;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.25;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 12px;
+}
+.contact-form-btn {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  text-align: center;
+  color: var(--background-color);
+  background-color: var(--checkmark-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 76px 10px 42px;
+  letter-spacing: 0.06em;
+}
 .list-of-buttons {
   display: flex;
   flex-direction: row;
