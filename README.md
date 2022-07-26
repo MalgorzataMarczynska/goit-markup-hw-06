@@ -1,1 +1,1 @@
-# goit-markup-hw-06
+# HTML homework no.6 GoIT full stack developer course
