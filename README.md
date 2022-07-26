@@ -1,1 +1,1 @@
-# HTML homework no.5 GoIT full stack developer course
+# HTML homework no.6 GoIT full stack developer course
