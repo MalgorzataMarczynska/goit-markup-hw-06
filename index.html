@@ -28,6 +28,97 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-x" data-modal-close>X</button>
+        <form>
+          <div
+            role="group"
+            arial-labelby="form-details-head"
+            class="form-details"
+          >
+            <p id="form-details-head" class="form-details-head">
+              Zostaw swoje dane w formularzu poniżej
+            </p>
+            <label class="form-details-items">
+              <p class="form-detail-title">
+                Imię
+                <svg class="form-icon" width="15" height="15">
+                  <use href="images/icomoon/sprite/icons.svg#icon-person"></use>
+                </svg>
+              </p>
+              <input
+                type="text"
+                name="username"
+                placeholder=" "
+                class="form-input"
+                minlength="2"
+                required
+              />
+            </label>
+            <label class="form-details-items">
+              <p class="form-detail-title">
+                Telefon
+                <svg class="form-icon" width="15" height="15">
+                  <use
+                    href="images/icomoon/sprite/icons.svg#icon-form-phone"
+                  ></use>
+                </svg>
+              </p>
+              <input
+                type="tel"
+                name="userphone"
+                placeholder=" "
+                class="form-input"
+                required
+              />
+            </label>
+            <label class="form-details-items">
+              <p class="form-detail-title">
+                Email
+                <svg class="form-icon" width="15" height="15">
+                  <use
+                    href="images/icomoon/sprite/icons.svg#icon-form-mail"
+                  ></use>
+                </svg>
+              </p>
+              <input
+                type="email"
+                name="usermail"
+                placeholder=" "
+                class="form-input"
+                required
+              />
+            </label>
+            <label class="form-details-items">
+              <span class="form-detail-title">Komentarz</span>
+              <textarea
+                name="comment"
+                rows="5"
+                placeholder="Wprowadź tekst"
+                class="form-textarea"
+              ></textarea>
+            </label>
+            <div class="policy">
+              <div class="policy-checkbox">
+                <input
+                  type="checkbox"
+                  name="policy-checkbox"
+                  id="policy-checkbox"
+                  class="checkbox hidden"
+                  required
+                />
+                <svg class="checkbox-check" width="15" height="13">
+                  <use
+                    href="images/icomoon/sprite/icons.svg#icon-check-sign"
+                  ></use>
+                </svg>
+              </div>
+              <label for="policy-checkbox" class="policy-checkbox-label"
+                >Oświadczam, iż akceptuję <a href="/">Regulamin</a> i
+                <a href="/">Politykę Prywatności</a>.</label
+              >
+            </div>
+            <button class="form-submit-btn" type="submit">Wyślij</button>
+          </div>
+        </form>
       </div>
     </div>
     <header class="header">
@@ -478,18 +569,26 @@
             </div>
             <div class="contact-form">
               <form>
-                <label class="contact-form-label" for="user_email"
+                <label class="contact-form-label" for="newsletter-usermail"
                   >zapisz się do newslettera</label
                 >
                 <input
                   class="contact-form-email"
                   type="email"
-                  name="user_email"
-                  id="user_email"
+                  name="newsletter-usermail"
+                  id="newsletter-usermail"
                   placeholder="E-mail"
                 />
                 <button class="contact-form-btn" type="submit">
-                  Zapisz się
+                  Zapisz się<svg
+                    class="contact-form-icon"
+                    width="24"
+                    height="24"
+                  >
+                    <use
+                      href="images/icomoon/sprite/icons.svg#icon-icon-send"
+                    ></use>
+                  </svg>
                 </button>
               </form>
             </div>
